@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@keyframes starter{
+    
+    from {
+        opacity: 0;
+        margin-top: 50px;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+body, html {
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.title {
+    color: rgb(255, 230, 0);
+    font-family: "Roboto", monospace;
+    text-align: center;
+    text-transform: uppercase;
+}
+.texto{
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", monospace;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 30%;
+    font-size: 60px;
+    top: 40%;
+}
+.imagem {
+    margin-top: 0;
+    animation-name: starter;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+}
+.sobreposicao {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+.imagem-banner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.form {
+    height: 9em;
+    margin-top: 10px;
+    display: flex;
+}
+.text-email{
+    font-size: 30px;
+    color: antiquewhite;
+    font-family: "Roboto", monospace;
+    width: 50%;
+    height: 50px;
+    margin-left: 300px;
+    background-color: rgb(58, 58, 58);
+    border-color: antiquewhite;
+    border-style: solid;
+    animation-name: starter;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+}
+.button-send {
+    width: 60px;
+    height: 60px;
+    background-color: goldenrod;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    margin-top: -5px;
+    transition: all 0.4s;
+}
+.icon {
+    color: whitesmoke;
+    font-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    transition: all 0.4s ;
+    margin-top: 5px;
+}
+.button-send:hover {
+    transform: scale(1.05);
+    background-color: black;
+    border-color: antiquewhite;
+}
+.section {
+    width: 100%;
+    display: flex;
+    height: 200px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: solid 10px rgb(255, 230, 0);
+}
+.texto-1 {
+    width: 100%;
+    color: antiquewhite;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.section h1 {
+    width: 600px;
+}
+.section p {
+    width: 600px;
+    margin-left: 50px;
+    margin-right: 0;
+}
+.section-title {
+    width: 100%;
+    font-family: "Roboto", monospace;
+    text-transform: uppercase;
+}
+.imagem-1 {
+    width: 600px;
+    float: right;
+}
